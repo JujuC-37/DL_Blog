@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: lightseagreen;
+    margin: 0;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: lightseagreen;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+article {
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 950px;
+    margin: 15px auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 2px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
